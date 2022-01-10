@@ -32,25 +32,31 @@ div {
 /* transformacije */
 
 div:first-child {
+  -webkit-transform: translate(-400px, 0);
   transform: translate(-400px, 0);
 }
 
 div:nth-child(2) {
+  -webkit-transform: translate(0, -278px);
   transform: translate(0, -278px); /* margin-top + margin-bottom + height = 278  */
 }
 
 div:nth-child(3) {
-  transform: translate(400px, -556px);
+  -webkit-transform: translate(400px, -556px);
+          transform: translate(400px, -556px);
 }
 
 div:nth-child(4) {
-  transform: rotate(180deg) translate(400px, 556px);
+  -webkit-transform: rotate(180deg) translate(400px, 556px);
+          transform: rotate(180deg) translate(400px, 556px);
 }
 
 div:nth-child(5) {
-  transform: translate(0, -834px) skew(15deg, 10deg);
+  -webkit-transform: translate(0, -834px) skew(15deg, 10deg);
+          transform: translate(0, -834px) skew(15deg, 10deg);
 }
 
 div:nth-child(6) {
-  transform: translate(400px, -1112px) rotate(45deg) skew(45deg, 5deg);
+  -webkit-transform: translate(400px, -1112px) rotate(45deg) skew(45deg, 5deg);
+          transform: translate(400px, -1112px) rotate(45deg) skew(45deg, 5deg);
 }

@@ -24,22 +24,27 @@ div {
 
 /* transformacije */
 
-.translate { /* Ovaj naziv klase je PROIZVOLJAN */
+.translate {
+  -webkit-transform: translate(150px, -20px);
   transform: translate(150px, -20px);
 }
 
-.rotate { /* Ovaj naziv klase je PROIZVOLJAN */
-  transform: rotate(25deg);
+.rotate {
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
 }
 
-.scale { /* Ovaj naziv klase je PROIZVOLJAN */
+.scale {
+  -webkit-transform: scale(0.5, 0.3);
   transform: scale(0.5, 0.3);
 }
 
-.skew { /* Ovaj naziv klase je PROIZVOLJAN */
-  transform: skew(20deg, 10deg);
+.skew {
+  -webkit-transform: skew(20deg, 15deg);
+  transform: skew(20deg, 15deg);
 }
 
-.multiple { /* Ovaj naziv klase je PROIZVOLJAN */
+.multiple {
+  -webkit-transform: rotate(30deg) scale(0.5, 0.3) skew(20deg, 15deg);
   transform: rotate(30deg) scale(0.5, 0.3) skew(20deg, 15deg);
 }
